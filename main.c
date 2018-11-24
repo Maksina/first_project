@@ -1,6 +1,6 @@
 #include <stdio.h>
-void sum (const int* ar1, const int* ar2, int* res, int count);
-int min(const int* array, int count);
+#include "min.h"
+
 int main()
 { int count,lv_min;
   int array[9];
